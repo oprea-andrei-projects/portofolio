@@ -164,16 +164,16 @@ main h3{
     }
 
     .marketing{
-        float: right;
+        float: left;
         width: 325px;
-        margin-right: 15px;
+        margin-left: 15px;
         margin-top: 15px;
     }
 
     .search{
-        float: left;
+        float: right;
         width: 325px;
-        margin-left:15px;
+        margin-right:15px;
         margin-top: 15px;
     }
 
@@ -192,16 +192,16 @@ main h3{
     }
 
     .photos{
-        float: right;
+        float: left;
         width: 325px;
-        margin-right: 15px;
+        margin-left: 15px;
         margin-top: 15px;
     }
 
     .calculator{
-        float: left;
+        float: right;
         width: 325px;
-        margin-left:15px;
+        margin-right:15px;
         margin-top: 15px;
     }
 
@@ -220,9 +220,85 @@ main h3{
         border-bottom: 2px solid black;
     }
 
-    hr{
-        float: right;
+   @media(min-width:1020px){
+
+    .nav{
+        /* border: 2px solid red;     */
+        width: 950px;
+        height: 150px;
+        text-align: center;
     }
+
+    li:nth-child(2){
+
+        margin-left: 230px;
+
+    }
+
+    .profile{
+        width: 950px;
+        height: 250px;
+        /* border: 2px solid red; */
+        margin-top: 20px;
+    }
+
+    .profile img{
+        margin-right: 0px;
+
+        width:300px;
+        height:200px;
+    }
+
+    .profile p{
+        /* border: 2px solid blue; */
+        width: 500px;
+        font-size: 20px;
+    }
+
+
+    main::after{
+
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+    .card{
+
+
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    .card img{
+
+        width:300px;
+
+
+    }
+
+     .search{
+
+        float: left;
+        margin-right: 0px;
+        
+     }
+
+     .travel{
+
+        float: left;
+        margin-left: 15px;
+     }
+
+     .calculator{
+
+        float: left;
+        margin-left: 15px;
+     }
+
+
+
+   }
 
     
 
